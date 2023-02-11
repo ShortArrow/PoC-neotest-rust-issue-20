@@ -10,7 +10,7 @@ fn main() {
 #[test]
 fn test20() {
     let result = func_ex_div_some(10, 5);
-    assert!(result.is_none());
+    assert!(result.is_some());
     assert_eq!(result.unwrap(), Some(2));
 }
 
